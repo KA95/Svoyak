@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:portal_survey;DB_CLOSE_DELAY=-1;IGNORECASE=TRUE;MVCC=true
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate.ddl-auto: validate
+  liquibase:
+    change-log: classpath:/changelog/changelog.xml

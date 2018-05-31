@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: svoyak-bot
+  datasource:
+    url: jdbc:postgresql://localhost/svoyak_bot
+    username: svoyak
+    password: svoyak
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    change-log: classpath:/changelog/changelog.xml
