@@ -8,3 +8,8 @@ spring:
     driver-class-name: org.postgresql.Driver
   liquibase:
     change-log: classpath:/changelog/changelog.xml
+
+bots:
+  hello:
+    name: MiSvoyak
+    key: 613799774:AAFUJBfLF8CjA21ut-Vt8rYbnKrGU5h31Z8
